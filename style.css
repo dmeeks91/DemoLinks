@@ -1,0 +1,132 @@
+#demoLinks {
+    width: 98%;
+    margin: auto;
+}
+.demoLinks .card {
+    margin-bottom: 5%;
+}
+.card-header.demotitle {
+    width: 100%;
+    text-align: center;
+    font-size: 150%;
+    font-weight: bold;
+    background-color: #614f378a;
+    color: #ffffff;
+}
+
+#home {
+    padding-bottom: 5%;
+}
+header .banner {
+    background: url("http://getwallpapers.com/wallpaper/full/e/4/7/519703.jpg");
+    /* https://png.pngtree.com/thumb_back/fw800/back_pic/03/51/77/1357922b6712244.jpg"); */
+    /* http://i1378.photobucket.com/albums/ah89/andreykokhanevich/portfolio%20page/header1-background_zpsdlk7p04z.jpg") 70% no-repeat; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 55%;
+    position: relative;
+    z-index: -10;
+}
+
+body, #nav{
+    background-color: #5a7b9cf5;
+}
+
+.banner-content {
+    color: #fff;
+    font-family: "Lato", serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 17%;
+    letter-spacing: 0.4rem;
+    padding-right: 8%;
+    margin-bottom: 15%;
+}
+
+.btnGithub{
+    background-color: #9aa0a5 !important;
+}
+
+.btnLive{
+    background-color: #5a7b9c !important;
+}
+.banner-content h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+.banner-content h3 {
+    font-size: 3rem;
+    margin: 5% 0;
+    color: #eeeeee;
+    font-weight: bold;
+}
+
+p.faBtnTitle {
+    margin-bottom: unset;
+}
+
+a.btn.btn-block.btn-sm {
+    max-width: 200px;
+    margin: auto;
+}
+
+a.navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+p.navbar-text {
+    padding-bottom: unset;
+    color: white;
+    font-style: italic;
+    font-size: 100%;
+}
+.appDetailMain {
+    width: 100%;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.linkBtn {
+    padding-top: 5%;
+}
+
+@media screen and (max-width: 990px) {
+    header .banner-content {
+        text-align: center;
+    }
+    .scroll-down {
+        display: none;
+    }
+    .contacts-data {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 767px) {
+    header .banner-content h1 {
+        font-size: 4rem;
+    }
+    header .banner-content h3 {
+        font-size: 2.5rem;
+    }
+    header .social-list {
+        display: none;
+    }
+    .block {
+        width: 65%;
+        margin: 20px auto;
+    }
+    .skills img {
+        width: 65%;
+    }
+}
+@media screen and (max-width: 491px) {
+    header .banner-content h1 {
+        font-size: 2.5rem;
+    }
+    header .banner-content h3 {
+        font-size: 1.5rem;
+    }
+}

@@ -22,6 +22,10 @@
     background-color: rgba(97, 79, 55, 0.54);
     color: #ffffff;
 }
+.ffHeader {
+    min-height: 500px;
+    padding-top: 20%;
+}
 
 #home {
     padding-bottom: 5%;
@@ -144,4 +148,5 @@ p.navbar-text {
     header .banner-content h3 {
         font-size: 1.5rem;
     }
+    
 }

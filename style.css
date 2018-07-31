@@ -2,9 +2,18 @@
     width: 98%;
     margin: auto;
 }
+
 .demoLinks .card {
+    max-width: 1200px;
+    margin: auto;
     margin-bottom: 5%;
 }
+
+.demoImage {
+    width: 100%;
+    margin: auto;
+}
+
 .card-header.demotitle {
     width: 100%;
     text-align: center;
@@ -19,14 +28,18 @@
 }
 header .banner {
     background: url("http://getwallpapers.com/wallpaper/full/e/4/7/519703.jpg");
-    /* https://png.pngtree.com/thumb_back/fw800/back_pic/03/51/77/1357922b6712244.jpg"); */
-    /* http://i1378.photobucket.com/albums/ah89/andreykokhanevich/portfolio%20page/header1-background_zpsdlk7p04z.jpg") 70% no-repeat; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     height: 55%;
     position: relative;
     z-index: -10;
+}
+
+p.faBtnTitle {
+    margin-bottom: unset;
+    font-size: 125%;
+    font-weight: bold;
 }
 
 body, #nav{
@@ -81,6 +94,7 @@ p.navbar-text {
     color: white;
     font-style: italic;
     font-size: 100%;
+    letter-spacing: .08rem;
 }
 .appDetailMain {
     width: 100%;

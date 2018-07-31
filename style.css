@@ -27,7 +27,8 @@
     padding-bottom: 5%;
 }
 header .banner {
-    background: url("http://getwallpapers.com/wallpaper/full/e/4/7/519703.jpg");
+    background: url("banner.jpg");
+    /* http://getwallpapers.com/wallpaper/full/e/4/7/519703.jpg */
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
